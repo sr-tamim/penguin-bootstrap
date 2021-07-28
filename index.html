@@ -26,6 +26,10 @@
         h1 {
             font-family: 'Bebas Neue', sans-serif;
         }
+
+        .bg-orange {
+            background: #fa804c;
+        }
     </style>
 </head>
 
@@ -34,7 +38,7 @@
         style="background:url(images/header-back.png);background-position:center;background-size:cover;background-repeat:no-repeat;">
         <nav class="navbar navbar-expand-md navbar-light bg-transparent py-4">
             <div class="container justify-content-between">
-                <a class="navbar-brand logo fs-4 fw-bold text-secondary" href="#">
+                <a class="navbar-brand logo fs-4 fw-bold text-secondary d-flex align-items-center" href="#">
                     <img src="icons/logo-img.png">
                     <span class="text-danger">Penguin</span> Mart
                 </a>
@@ -73,16 +77,102 @@
             <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-start">
                 <h1 class="text-uppercase display-1 fw-bolder text-warning my-0">Nike React</h1>
                 <h1 class="text-uppercase display-3 fw-bolder my-0">Infinity Run 2</h1>
-                <p class="fs-6 text-secondary pe-5 my-3">
+                <p class="text-secondary pe-5 mt-3 mb-4">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum sapiente culpa et rerum vel.
                 </p>
-                <a href="#" class="btn bg-warning text-uppercase d-flex align-items-center fs-6 px-4 py-3 rounded-pill">
+                <a href="#"
+                    class="btn bg-orange text-uppercase text-white fw-bold d-flex align-items-center px-4 py-3 rounded-pill">
                     <img class="h-auto me-2" src="icons/shopping-cart 1.png" style="width:30px;">
                     Buy now
                 </a>
             </div>
         </div>
     </header>
+
+    <main>
+        <!-- products section start -->
+        <section class="py-5">
+            <!-- casual shoes -->
+            <div class="container py-5">
+                <h1 class="text-uppercase">casual shoes</h1>
+                <!-- products -->
+                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 justify-content-center">
+                    <div class="px-lg-3 py-5">
+                        <div class="col d-flex flex-column p-4 rounded-3 shadow-lg mx-auto">
+                            <div class="rounded-3 text-center" style="background:#e9e9e9;">
+                                <img class="img-fluid" src="images/casual-1.png">
+                            </div>
+                            <div class="mt-4">
+                                <h3 class="fw-bold">Nike Shoe</h3>
+                                <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                    ducimus.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="fs-2 fw-bold text-danger">$234</div>
+                                    <div>
+                                        <a href="#"
+                                            class="btn bg-orange text-uppercase text-white fw-bold d-flex align-items-center px-3 py-2 rounded-3">
+                                            <img class="h-auto me-2" src="icons/shopping-cart 1.png"
+                                                style="width:30px;">
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-lg-3 py-5">
+                        <div class="col d-flex flex-column p-4 rounded-3 shadow-lg mx-auto">
+                            <div class="rounded-3 text-center" style="background:#e9e9e9;">
+                                <img class="ps-3 img-fluid" src="images/casual-2.png">
+                            </div>
+                            <div class="mt-4">
+                                <h3 class="fw-bold">Sneakers Skate Shoe</h3>
+                                <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                    ducimus.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="fs-2 fw-bold text-danger">$234</div>
+                                    <div>
+                                        <a href="#"
+                                            class="btn bg-orange text-uppercase text-white fw-bold d-flex align-items-center px-3 py-2 rounded-3">
+                                            <img class="h-auto me-2" src="icons/shopping-cart 1.png"
+                                                style="width:30px;">
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-lg-3 py-5">
+                        <div class="col d-flex flex-column p-4 rounded-3 shadow-lg mx-auto">
+                            <div class="rounded-3 text-center" style="background:#e9e9e9;">
+                                <img class="img-fluid" src="images/casual-3.png">
+                            </div>
+                            <div class="mt-4">
+                                <h3 class="fw-bold">Sneakers Basketball Shoe</h3>
+                                <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                    ducimus.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="fs-2 fw-bold text-danger">$234</div>
+                                    <div>
+                                        <a href="#"
+                                            class="btn bg-orange text-uppercase text-white fw-bold d-flex align-items-center px-3 py-2 rounded-3">
+                                            <img class="h-auto me-2" src="icons/shopping-cart 1.png"
+                                                style="width:30px;">
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
     <!-- bootstrap js file cdn link -->
